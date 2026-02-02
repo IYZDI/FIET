@@ -184,6 +184,37 @@ th,td{
     .top-bar,.input-panel,.archive-panel,.action-buttons{display:none!important}
     body{background:white}
 }
+
+    @page {
+    size: 10.16cm 15.24cm;
+    margin: 0;
+}
+
+@media print {
+    html, body {
+        width: 10.16cm;
+        height: 15.24cm;
+        margin: 0;
+        padding: 0;
+        background: white;
+    }
+
+    #invoice-page,
+    #a6-label {
+        width: 10.16cm;
+        height: 15.24cm;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .top-bar,
+    .input-panel,
+    .archive-panel,
+    .action-buttons {
+        display: none !important;
+    }
+}
 </style>
 </head>
 
